@@ -6,7 +6,7 @@
 #    By: ciglesia <ciglesia@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/08/20 19:19:55 by ciglesia          #+#    #+#              #
-#    Updated: 2021/04/08 10:49:45 by ciglesia         ###   ########.fr        #
+#    Updated: 2021/04/09 19:25:00 by ciglesia         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -33,7 +33,7 @@ CFLAGS		=
 CFLAGS		=	-Wall -Wextra -Werror -ansi -pedantic -g
 	endif
 else
-CFLAGS		=	-Wall -Wextra -Werror
+CFLAGS		=	-Wall -Wextra -Werror -Ofast -march=native
 endif
 
 CC			=	/usr/bin/gcc
